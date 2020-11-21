@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void add(int *a)    //formal parameter
+{
+    *a = *a + 10;
+    printf("\nValue of num in called function = %d", *a);
+}
+
+int main()
+{
+    printf("\n===== Call By Reference =====\n");
+    int num = 5;
+    printf("\nValue of num before calling function = %d", num);
+    add(&num);   //actual parameter
+    printf("\nValue of num after calling function = %d", num);
+    return 0;
+}
