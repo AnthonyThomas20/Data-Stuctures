@@ -15,6 +15,12 @@ So, the changes made are only reflected in the called function and values of var
 
 *Demerit:* - Copying data consumes additional storage space and affects performance.
 
+**Output**
+
+![image](https://user-images.githubusercontent.com/54772502/99881861-3dba1100-2c42-11eb-9836-9900c24eb3b6.png)
+
+
+
 **Call By Reference**
 
 Here the addresses of variables are passed to the called function to access the actual argument used in the function call. 
@@ -24,3 +30,7 @@ So, the changes made are also reflected in the main function and thus values of 
 *Merit:* - Better time and space efficiency.
 
 *Demerit:* - Changes are reflected in main function too, i.e. data may get overwritten.
+
+**Output**
+
+![image](https://user-images.githubusercontent.com/54772502/99881898-a608f280-2c42-11eb-99c1-eeb2d658b254.png)
